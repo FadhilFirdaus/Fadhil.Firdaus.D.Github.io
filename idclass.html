@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learning CSS</title>
     <style>
-        .container{
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
             width: 100vw;
             height: 100vh;
-            background: #0000;
+            background: #000;
             display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .circle1{
+
+        .circle1 {
             width: 50px;
-            height:50px;
-            border-radius: 200px ;
-            background: azure;
+            height: 50px;
+            border-radius: 200px;
+            background: #f40000;
+            margin: 20px;
         }
-        .circle2{
+
+        .circle2 {
             width: 50px;
-            height:50px;
-            border-radius: 200px ;
+            height: 50px;
+            border-radius: 200px;
             background: azure;
+            margin: 20px;
         }
-        .circle3{
+
+        .circle3 {
             width: 50px;
-            height:50px;
-            border-radius: 200px ;
-            background: azure;
+            height: 50px;
+            border-radius: 200px;
+            background: #0800ff;
+            margin: 20px;
         }
+        
     </style>
 </head>
-<body style="background-color: green;">
+
+<body>
     <div class="container">
-    <div class="circle1">
-    <div class="circle2">
-    <div class="circle3">
-    </div>
-    </div>
-    </div>
-    </div>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
     </div>
 </body>
+
 </html>
